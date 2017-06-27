@@ -1,0 +1,27 @@
+
+.wordsonleft{
+    float:left;
+    text-align:right;
+    width:150px;
+
+}
+div.wordsonleft h4{
+    margin:5px;
+}
+
+.allselectors{
+    width: 500px;
+    overflow:hidden
+}
+
+div.SecondJob input{
+    margin-bottom: 2px;
+}
+.bottomsubmit{
+    width:300px;
+    text-align: center;
+}
+div.bottomsubmit input[type=submit]{
+    border-radius: 10px;
+    background-color: silver;
+}

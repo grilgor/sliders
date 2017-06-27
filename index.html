@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Sliders</title>
+</head>
+<body>
+<div class="SecondJob">
+    <div class="wordsonleft">
+        <h4>Title</h4>
+        <h4>Name</h4>
+        <h4>Phone Number</h4>
+        <h4>Email Adress</h4>
+        <h4>Your Website</h4>
+        <h4>nr.of items to order</h4>
+        <h4>length</h4>
+        <h4>Delivery date</h4>
+        <h4>Time of delivery</h4>
+        <h4>Color of the item</h4>
+    </div>
+    <div class="allselectors">
+        <form>
+            <input list="titles" name="title" placeholder="Enter yours or select one" required>
+            <datalist id="titles">
+                <option value="Weird accident">
+                <option value="Not so weird accident">
+                <option value="My Pen broke">
+                <option value="Lion King">
+                <option value="How to stop crying">
+                <option value="Your face">
+            </datalist>
+            </input>
+            <br>
+            <input type="text" name="firstlastname" placeholder="John le foam" required>
+            <br>
+            <input type="tel" name="usrtel" placeholder="+370 111 11111"> (optional)
+            <br>
+            <input type="email" name="email" placeholder="your@email.com" required>
+            <br>
+            <input type="url" name="website" placeholder="your website"> (optional)
+            <br>
+            <input type="number" name="orderamount" min="1" max="10" step="1" value="6" required> (1-10)
+            <br>
+            <input type="range" name="length" min="0" max="100" step="10" required>1m (in 10cm increments)
+            <br>
+            <input type="date" name="deliverydate" min="12-16-2010" required> (minimum 16 December 2010)
+            <br>
+            <input type="time" name="deliverytime" step="30" required> (in 30 min increments)
+            <br>
+            <input type="color" name="color" value="#ff0000" required>
+        </form>
+    </div>
+    <div class="clear"></div>
+    <div class="bottomsubmit">
+        <form>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
