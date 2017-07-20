@@ -1,4 +1,10 @@
-
+body, html {
+    width:100%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
 .wordsonleft{
     float:left;
     text-align:right;
@@ -8,14 +14,21 @@
 div.wordsonleft h4{
     margin:5px;
 }
+.secondJob {
+    margin:auto;
+    width: 650px;
+    background-color: lightgray;
 
-.allselectors{
+}
+
+
+.allSelectors{
     width: 500px;
     overflow:hidden
 }
 
 div.SecondJob input{
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 .bottomsubmit{
     width:300px;
